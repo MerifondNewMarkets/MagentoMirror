@@ -11,7 +11,7 @@ commands:
       - name: magento-mymirror-1.9.4.5
         version: 1.9.4.5
         dist:
-          url: https://path/to/magento-files/magento-1.9.4.5.tar.gz
+          url: https://github.com/MerifondNewMarkets/MagentoMirror/releases/download/v1.9.4.5/magento-1.9.4.5.tar.gz
           type: tar
         extra:
           sample-data: sample-data-mymirror-1.9.2.4
@@ -20,6 +20,6 @@ commands:
       - name: sample.data-mymirror-1.9.2.4
         version: 1.9.2.4
         dist:
-          url: file:///path/to/magento-files/magento-sample-data-1.9.2.4.tar.gz
+          url: https://github.com/MerifondNewMarkets/MagentoMirror/releases/download/v1.9.4.5/sample-data-1.9.2.4.tar.gz
           type: tar
 ```
